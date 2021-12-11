@@ -1,0 +1,77 @@
+
+.btn-rounded {
+	border-radius: 10rem;
+}
+
+.border-alternate {
+	border: solid #2151d4 2px;
+	opacity: 1;
+	margin-left: 0;
+}
+
+.section {
+	position: relative;
+}
+
+.text-alternate {
+	color: #2151d4;
+}
+
+.price {
+	font-family: Lato, sans-serif;
+}
+
+.navbar-toggler-icon {
+	width: 100%;
+	height: 1px;
+	display: block;
+	content: '';
+	background-color: white;
+}
+
+a.nav-link {
+	color: white;
+}
+
+a.nav-link:hover {
+	color: #aaaaaa;
+}
+
+@media (max-width: 480px) {
+	.margin {
+		margin-top: 20px;
+	}
+	
+	.margin2 {
+		margin-top: 1px;
+		margin-bottom: 16px;
+	}
+	
+	.btn-outline-light[href^='#'] {
+		background-color: #326edf;
+	}
+}
+
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900";
+
+p.regular:nth-last-child(2) {
+	margin-bottom: 40px;
+}
+
+nav.navbar {
+	background-color: #008b01;
+}
+
+@media (min-width: 768px) {
+  .header {
+	  height: 576px;
+  }
+}
+
+@media (max-width: 767px) {
+	.header {
+		height: 890px;
+	}
+}
+
+

@@ -1,28 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,600,700,900" rel="stylesheet">
+    <Navbar></Navbar>
+    <Home></Home>
+    <Features></Features>
+    <Prising></Prising>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	import Navbar from './components/Navbar'
+  import Home from './components/Home'
+  import Features from './components/Features'
+	import Prising from './components/Prising'
+ 
+	export default {
+		name: 'App',
+		components: {
+			Navbar,
+      Home,
+      Features,
+      Prising
+		}
+	}
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

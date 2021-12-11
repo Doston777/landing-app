@@ -14,7 +14,7 @@
     "core-js": "^3.6.5",
     "googleapis": "^92.0.0",
     "http2": "^3.3.7",
-    "sass-loader": "^12.4.0",
+    "sass-loader": "^10.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

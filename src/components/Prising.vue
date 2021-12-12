@@ -43,7 +43,7 @@
                   <div class="text-center">
                     <h4 class="mb-sm-3 mb-3 text-alternate text-capitalize bold">basic</h4>
                     
-                    <p>For individuals</p>
+                    <p class="unique-margin">For individuals</p>
                     
                     <p class="display-3 price">$0/<i>mo</i></p>
                     
@@ -93,7 +93,7 @@
                   <div class="text-center">
                     <h4 class="mb-sm-3 mb-3 text-alternate text-capitalize bold">basic</h4>
                     
-                    <p>For individuals</p>
+                    <p class="unique-margin">For individuals</p>
                     
                     <p class="display-3 price">$0/<i>mo</i></p>
                     

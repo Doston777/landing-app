@@ -73,5 +73,13 @@ nav.navbar {
 		height: 890px;
 	}
 }
-
+@media (max-width: 991px) {
+	.unique-margin {
+		margin-bottom: 40px;
+	}
+	
+	p.display-3.price {
+		font-size: 45px;
+	}
+}
 
